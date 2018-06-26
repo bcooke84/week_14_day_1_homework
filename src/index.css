@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  font-family: verdana;
+}
+
+h4.opening-heading {
+  text-align: left;
+  margin: 0;
+  margin-top: 10px;
+  padding:10px 0px 20px 5px;
+  font-weight: normal;
+}
+
+div.movie-box {
+  text-align: left;
+  width: 300px;
+  background-color: #F1F1F1;
+}
+
+div.movie {
+  display: flex;
+  justify-content: space-between;
+}
+
+button.get-showtimes {
+  width: 100%;
+  height: 50px;
+  background-color: #136CB2;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.get-showtimes-button {
+  border-top: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+p {
+  font-size: 10px;
+}
+
+p.showtimes {
+  padding-right: 5px;
+}
+
+p.movie-title, p.see-more  {
+  padding-left: 5px;
+}
+
+a.showtimes-link, a.title-link, a.see-more-link {
+  text-decoration: none;
+  color: #136CB2;
+}
